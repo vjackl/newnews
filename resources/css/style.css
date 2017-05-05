@@ -1,0 +1,49 @@
+header{
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  border: solid;
+}
+
+
+.logo{
+  display: flex;
+  border: solid;
+  align-items: center;
+  padding-left: 30px;
+  flex-grow: 1;
+  border: solid red;
+}
+
+.logo span{
+  color: MediumAquamarine;
+}
+
+.logo img{
+}
+
+nav{
+  border: solid blue;
+}
+
+header nav{
+  display: inline-block;
+  /* padding: 20px 10px; */
+  /* border: solid; */
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+
+h1{
+  font-size: 50px;
+  font-family: helvetica;
+
+}
