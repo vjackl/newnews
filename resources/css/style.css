@@ -53,28 +53,42 @@ nav span{
 
 .column{
   display: flex;
-  border: solid red;
+  /* border: solid red; */
   flex-direction: column;
 
   /*height: 50px; */
   /*width: 50px; */
 }
 
-.column.large{
-  width: 630px;
-  height: 50px;
+/*  See the content containers     */
+.large{
   border: solid blue;
 }
+
+.medium{
+  border: solid yellow;
+}
+
+.small{
+  border: solid green;
+}
+/* End of content borders */
+
+.column.large{
+  width: 630px;
+  /* height: 50px; */
+  /* border: solid blue; */
+}
+
 
 .column.medium{
   width: 300px;
   height: 100px;
-  border: solid yellow;
+
 }
 
 .column.small{
   width: 240px;
-  border: solid green;
   height: 400px;
 }
 
