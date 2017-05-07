@@ -10,6 +10,9 @@ header{
   border-bottom: 1px solid black;
 }
 
+h2{
+  font-size: 24px; 
+}
 
 .logo{
   display: flex;
@@ -46,8 +49,12 @@ nav span{
 }
 
 
+
 .content{
   display: flex;
+  font-family: georgia;
+  font-size: 17px;
+  color: black;
 
 }
 
@@ -89,11 +96,83 @@ nav span{
 
 .column.small{
   width: 240px;
-  
+
 }
 
-h1{
-  font-size: 50px;
-  font-family: helvetica;
 
+
+
+.story-image{
+  border: solid ;
+  background-image: url('../images/img-story-main.png');
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  height: 300px;
+}
+
+.image-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+
+}
+
+.earth-image{
+  /*border: solid red; */
+  background-image: url('../images/img-story-2.png');
+  /*font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px; */
+}
+
+.research-image{
+  /*border: solid red;
+  border: solid ;*/
+  background-image: url('../images/img-story-3.png');
+  /*font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;*/
+}
+
+.cat-image{
+  border: solid red;
+  border: solid ;
+  background-image: url('../images/img-story-1.png');
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+
+.text-content{
+  /*border: solid;*/
+  height: 250px
+}
+.stories{
+  display: flex;
+  justify-content: space-between;
+}
+.story{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+}
+
+.narrative{
+  margin-top: 17px:
 }
